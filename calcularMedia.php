@@ -33,9 +33,9 @@ if(isset($_POST["nomeAluno"])
 
     }else{
         echo "Campos do formulário estão vazios.";
-    ?>
-        <a href="formulario.html">Voltar para o formulário!</a>
-    <?php
+        ?>
+            <a href="formulario.html">Voltar para o formulário!</a>
+        <?php
     }
 }else{
     echo "Para acessar esta página, você precisa preencher o formulário.";
