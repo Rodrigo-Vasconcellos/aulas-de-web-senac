@@ -6,15 +6,15 @@
         if(!empty($_POST["nomeCliente"])
         && !empty($_POST["emailCliente"])
         && !empty($_POST["telefoneCliente"])){
-        $nomeCliente = $_POST["nomeCliente"];
-        $emailCliente = $_POST["emailCliente"];
-        $telefoneCliente = $_POST["telefoneCliente"];
-        echo "Nome do cliente: $nomeCliente";
-        echo "<br>";
-        echo "email do cliente: $emailCliente";
-        echo "<br>";
-        echo "telefone do cliente: $telefoneCliente";
-        echo "<br>";
+            $nomeCliente = $_POST["nomeCliente"];
+            $emailCliente = $_POST["emailCliente"];
+            $telefoneCliente = $_POST["telefoneCliente"];
+            echo "Nome do cliente: $nomeCliente";
+            echo "<br>";
+            echo "email do cliente: $emailCliente";
+            echo "<br>";
+            echo "telefone do cliente: $telefoneCliente";
+            echo "<br>";
         }else{
             echo "Campos do formulário estão vazios.";
             ?>
