@@ -32,11 +32,15 @@ a {
 	text-decoration: none;
 }
 
+a:hover {             /* quando pasar o ceta em cima faz uma açao */
+	text-decoration: underline;
+}
+
 /*Formataçao cabeçalho */
 
 header#cabecalho {
 	border-bottom: 1px #606060 solid;
-	height: 150px;
+	height: 120px;
 }
 
 header#cabecalho h1 {
@@ -80,31 +84,30 @@ figure.foto-legenda:hover figcaption  {
 }
 
 
-/*Formataçao do menu do cabeçalho*/
+/*Formataçao do menu */
 
 nav#menu {
 	display:  block;
 }
-
 
 nav#menu ul {
 	list-style: none;
 	text-transform: uppercase;
 	position: absolute;
 	top:  -20px;
-	left:  350px;
+	left:  300px;
 	
 }
 nav#menu li {
 	display: inline-block;
-	background-color: #dddddd;
+	background-color: rgba(0,0,0,.2);
 	padding:  10px;
 	margin:  2px;
 	transition: background-color 1s;
 }
 
 nav#menu li:hover {
-	background-color: #606060;
+	background-color: rgba(0,0,0,.4);
 }
 
 nav#menu h1 {
