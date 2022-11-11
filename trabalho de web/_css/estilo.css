@@ -5,6 +5,9 @@
 	font-family: 'FonteLogo';
 	src: url("../_fonts/bubblegum-sans-regular.otf");
 }
+
+/*Formataçao pagina inteira */
+
 body {
 		font-family: Arial, sans-serif;	
 		background-color: #dddddd;
@@ -29,11 +32,13 @@ a {
 	text-decoration: none;
 }
 
+/*Formataçao cabeçalho */
+
 header#cabecalho {
 	border-bottom: 1px #606060 solid;
 	height: 150px;
-	background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
 }
+
 header#cabecalho h1 {
 	font-family: 'FonteLogo', sans-serif;
 	font-size: 30pt;
@@ -75,7 +80,7 @@ figure.foto-legenda:hover figcaption  {
 }
 
 
-/*Formataçao do menu*/
+/*Formataçao do menu do cabeçalho*/
 
 nav#menu {
 	display:  block;
@@ -87,7 +92,7 @@ nav#menu ul {
 	text-transform: uppercase;
 	position: absolute;
 	top:  -20px;
-	left:  300px;
+	left:  350px;
 	
 }
 nav#menu li {
